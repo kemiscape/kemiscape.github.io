@@ -1,0 +1,83 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/about.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content {
+    margin: 0;
+    padding: 0;
+}
+section {
+    width: 70%;
+    margin: 0 auto;
+}
+article {
+    padding: 1rem;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.rashira, .rashira-i {
+    text-align: justify;
+    text-align-last: center;
+    color: #fff0ce;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.171);
+}
+.rashira h1, h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: -1rem;
+}
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: -1rem;
+}
+.back-btn a {
+    color: antiquewhite; 
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+.back-btn {
+    background-color: rgb(41, 41, 41);
+    top: 0;
+    position: fixed;
+    margin: 0.5rem 0 0 0.5rem;
+}
+footer {
+    margin-top: 1rem;
+    color: antiquewhite;
+    text-align: center;
+}
+nav {
+    margin: 0 auto;
+    width: 50%;
+}
+ul {
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    justify-content: space-between;
+    margin-top: 1rem;
+    color: antiquewhite;
+}
+li {
+    text-align: center;
+    list-style-type: none;
+    flex-basis: 20%;
+}
+a {
+    text-decoration: none;
+    color: wheat;
+}
+.last {
+    bottom: 0;
+    font-size: 0.5rem;
+}

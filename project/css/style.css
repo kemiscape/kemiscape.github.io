@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-image: url(../img/hutao-ind.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.page-container {
+    margin-top: 48rem;
+    width: 100%;
+    display: flex;
+}
+header {
+    margin: 0 auto;
+    font-family: 'Noto Serif Toto', serif;
+    font-family: 'Spectral', serif;
+    margin-bottom: 1rem;
+}
+.welcome-fs {
+    text-align: center;
+    border-radius: 15px;
+}
+.rash-realm {
+    font-size: 4rem;
+    color: beige;
+}
+.path {
+    margin-top: -1.5rem;
+}
+.path ul {
+    padding: 0;
+    margin: -0.5rem 0 -0.4rem 0;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.path li {
+    width: 35%;
+    list-style-type: none;
+}
+.path a {
+    color: bisque;
+    text-align: center;
+    text-decoration: none;
+}
+.last {
+    bottom: 0;
+    font-size: 0.5rem;
+    text-align: center;
+    color: rgba(245, 222, 179, 0.253);
+}
